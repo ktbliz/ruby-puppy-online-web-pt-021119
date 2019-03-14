@@ -17,12 +17,9 @@ class Dog
   end 
   
   def self.all 
-    @@all.each do |key, value|
-      if key == :name 
-        puts value 
-      end 
+    @@all.each do |x|
+      puts self.name 
     end 
-    binding.pry
   end 
  
   
