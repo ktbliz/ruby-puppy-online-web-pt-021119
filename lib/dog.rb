@@ -17,7 +17,11 @@ class Dog
   end 
   
   def self.all 
-    puts @@all 
+    @@all.each do |key, value|
+      if key == :name 
+        puts value 
+      end 
+    end 
   end 
  
   
