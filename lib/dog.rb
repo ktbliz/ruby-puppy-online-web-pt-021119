@@ -22,8 +22,9 @@ class Dog
         puts value 
       end 
     end 
+    binding.pry
   end 
  
-  binding.pry
+  
 
 end 
